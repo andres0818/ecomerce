@@ -1,0 +1,52 @@
+.container-All{
+    width: 100%;
+    height: 40px;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);   
+}
+
+.izquierda{
+    margin-left: 50px;
+}
+.izquierda button{
+    width: 260px;
+    height: 50px;
+    border: none;
+    background-color: rgb(39, 149, 125);
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0 90px 0 10px;    
+}
+.izquierda button:hover{
+    background-color: rgb(21, 86, 72);
+}
+.derecha{
+    display: flex;
+    gap: 100px;
+}
+.rayo{
+    width: 50px;
+    height:50px ;    
+    background-color:rgba(39, 149, 125, 0.297);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.rayo img{
+    width: 30px;
+    height: 30px;
+}
+.rayo:hover{
+    background-color:rgb(39, 149, 125) ;
+}
+
+.fondo{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

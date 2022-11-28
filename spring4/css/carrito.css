@@ -1,0 +1,282 @@
+#cards {
+  background-color: rgba(168, 166, 166, 0.145);
+  border-radius: 8px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 7% 15% 0 15%;
+  gap: 30px;
+}
+.container-cards {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#cards div {
+  margin: 0 20px 0 20px;
+}
+#cards div img {
+  height: 100px;
+  width: 100px;
+  border-radius: 8px;
+}
+.columna-uno {
+  display: flex;
+  flex-direction: column;
+}
+del {
+  color: gray;
+}
+.p-uno {
+  margin-top: 15px;
+}
+#cards span {
+  color: gray;
+}
+.green {
+  color: rgb(64, 191, 52);
+}
+
+.historial{
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-historial{
+  margin: 50px 50px 0 0 ;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(39, 149, 125);
+  color: white;
+  font-weight: bold;
+}
+.btn-historial:hover{
+  color: rgb(39, 149, 125);
+  background-color: white;
+  border: 2px solid rgb(39, 149, 125);;
+}
+.container-btn {
+  width: 200px;
+}
+.container-btn p {
+  margin-left: 15px;
+}
+.suma-resta {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.btn {
+  border: none;
+  background-color: rgba(168, 166, 166, 0.366);
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.acciones {
+  display: flex;
+  flex-direction: column;
+}
+.total {
+  color: gray;
+  margin-bottom: 15px;
+}
+.action {
+  margin-bottom: 15px;
+}
+.red {
+  color: rgb(205, 44, 44);
+}
+
+/* cart total */
+
+.container-venta {
+  margin: 50px 10% 50px 10%;
+  background-color: rgba(206, 206, 206, 0.351);
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 40px;
+}
+.comprar {
+  margin: 3%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comprar button {
+  border: none;
+  background-color: springgreen;
+  width: 200px;
+  height: 80px;
+  border-radius: 20px;
+  font-size: 30px;
+}
+.comprar button:hover {
+  background-color: rgb(1, 141, 71);
+}
+.container-venta p {
+  color: gray;
+}
+
+.input-text input {
+  border: 1px solid springgreen;
+  width: 90%;
+  height: 35px;
+  border-radius: 10px 0 0 10px;
+}
+.input-text button {
+  width: 10%;
+  height: 35px;
+  color: rgb(255, 255, 255);
+  background-color: springgreen;
+  border: none;
+  border-radius: 0 10px 10px 0;
+}
+
+.input-text button:hover {
+  background-color: rgb(0, 94, 47);
+}
+
+.subtotal {
+  display: flex;
+}
+
+.sub1 {
+  width: 50%;
+}
+.sub2 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sub2 h4 {
+  color: rgb(0, 139, 70);
+}
+.checkout {
+  width: 100%;
+}
+
+.checkout button {
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: rgb(235, 103, 103);
+}
+.shoping {
+  width: 100%;
+}
+
+.shoping button {
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: rgb(194, 193, 193);
+}
+
+
+/* formulario datos personales */
+.form-datos {
+  width: 80%;
+  background-color: rgba(202, 202, 202, 0.345);
+  display: none;
+  flex-direction: column;
+  padding: 45px;
+  margin: 60px 10% 0 10%;
+  border-radius: 10px;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.form-inputs input {
+  border: 1px solid gray;
+  border-radius: 3px;
+  height: 40px;
+  gap: 30px;
+}
+
+.form-bts {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-top: 30px;
+}
+.form-bts button{
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius:10px;
+}
+.btn-cancel {
+  background-color: rgb(191, 189, 189);
+}
+.btn-buy {
+  background-color:  rgb(235, 103, 103);
+}
+
+
+@media only screen and (min-device-width: 390px) and (max-device-width: 844px) {
+  
+  #categories{
+    display: none;
+  }
+
+  .historial{
+    display: flex;
+    justify-content: center;
+    margin: 230px 0 70px 0;
+  }
+  #cards{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 0 50px 0 50px;
+  }
+  .container-cards {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 1px gray;
+  }
+  #cards div img {
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+  }
+
+  .comprar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin:30px 0 200px 0;
+  }
+
+ .container-venta{
+  margin-top: 250px;
+ }
+
+ .form-datos{
+  margin-top: 250px;
+ }
+}

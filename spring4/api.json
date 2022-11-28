@@ -1,0 +1,192 @@
+{
+  "producto": [
+    {
+      "id": 0,
+      "name": "cheetos",
+      "img": "https://pimiento.com.co/2560-large_default/cheetos-flamin-hot-x-37-gr.jpg",
+      "descripcion": "Fantasticos Cheetos de Queso picantes",
+      "precio": 2000,
+      "descuento": 2500,
+      "categoria": "Mecatos"
+    },
+    {
+      "id": 1,
+      "name": "papas",
+      "img": "https://elcomercio.pe/resizer/hty6NbG9qe9kPobUETF5V8EMNfs=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/6RY2RVYXSRHTLD4ZX2FZHNZZOA.jpg",
+      "descripcion": "Deliciosas papas 100% naturales, campecinas",
+      "precio": 6500,
+      "descuento": 7900,
+      "categoria": "Vegetales"
+    },
+    {
+      "id": 2,
+      "name": "smirnoff",
+      "img": "https://www.sipasolutions.es/media/cache/width_635/uploads/page/624d6e4be2ee6977867821.jpg",
+      "descripcion": "SMIRNOFF,bebida alcoholica con un toque de vodka",
+      "precio": 65000,
+      "descuento": 70000,
+      "categoria": "Bebidas"
+    },
+    {
+      "id": 3,
+      "name": "carnes",
+      "img": "https://img.freepik.com/vector-gratis/conjunto-ingredientes-animales-cocinar-comida-salchicha-nudillo-cerdo-becon-muslo-pollo-estilo-dibujo-verduras-aislado-ilustracion-vector-fondo-blanco_1150-65718.jpg?w=2000",
+      "descripcion": "Carnes, proteina perfecta para acompañar lascomidas",
+      "precio": 15000,
+      "descuento": 17000,
+      "categoria": "Carnes"
+    },
+    {
+      "id": 4,
+      "name": "Desayunos",
+      "img": "https://imagenes.heraldo.es/files/og_thumbnail/uploads/imagenes/2015/08/14/_desayunar_62409e91.jpg",
+      "descripcion": "Un antojito para desayunar, cereal, fruta y jugo",
+      "precio": 8500,
+      "descuento": 9000,
+      "categoria": "Desayunos"
+    },
+    {
+      "id": 5,
+      "name": "Helado",
+      "img": "https://ken-foods.com/en/wp-content/uploads/2018/07/el-origen-del-helado-e1530726550260.jpg",
+      "descripcion": "Deliciosos y refrescantes helados, postre perfecto para tener en casa",
+      "precio": 25000,
+      "descuento": 27000,
+      "categoria": "Helados"
+    },
+    {
+      "id": 6,
+      "name": "Galletas",
+      "img": "https://media.takealot.com/covers_images/3cf8b444382f4f649d25c549d9cb5c4b/s-pdpxl.file",
+      "descripcion": "Galletas Fantasy Crujientes Choco Chip",
+      "precio": 2000,
+      "descuento": 3000,
+      "categoria": "Galletas"
+    },
+    {
+      "id": "20",
+      "name": "papitas la berriondera",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kPX1sAX5/200/200/original?country=co",
+      "descripcion": "papas fritas",
+      "precio": "5000",
+      "descuento": "6000",
+      "categoria": "Fantasma"
+    }
+  ],
+
+  "departamentos":[
+    {
+        "id":0,
+        "departamento":"Amazonas"     
+    },{
+        "id":1,
+        "departamento":"Antioquia"
+    },{
+        "id":2,
+        "departamento":"Arauca"
+    },{
+        "id":3,
+        "departamento":"Atlántico"
+    },{
+        "id":4,
+        "departamento":"Bogota"
+    },{
+        "id":5,
+        "departamento":"Bolívar"
+    },{
+        "id":6,
+        "departamento":"Boyacá"
+    },{
+        "id":7,
+        "departamento":"Caldas"
+    }
+],
+"amazonas":[
+  {   
+    "id":1,
+      "cuidad":"letica"
+  },{
+      "id":2,
+      "cuidad":"el canto"
+  },{
+    "id":3,
+      "cuidad":"puerto arica"
+  }],
+  "Antioquia":[
+    {
+      "id":1,
+        "cuidad":"medellin"
+    },{
+      "id":2,
+        "cuidad":"caucacia"
+    },{
+      "id":3,
+        "cuidad":"turbo"
+    }],
+  "Arauca":[
+    {
+      "id":1,
+        "cuidad":"arauca"
+    },{
+      "id":2,
+        "cuidad":"tame"
+    },{
+      "id":3,
+        "cuidad":"cubara"
+    }],
+  "Atlántico":[
+    {
+      "id":1,
+        "cuidad":"barranquilla"
+    },{
+      "id":2,
+        "cuidad":"malambo"
+    },{
+      "id":3,
+        "cuidad":"piojo"
+    }],
+  "Bogota":[
+    {
+      "id":1,
+        "cuidad":"usaquen"
+    },{
+      "id":2,
+        "cuidad":"chapinero"
+    },{
+      "id":3,
+        "cuidad":"santa fe"
+    }],
+  "Bolívar":[
+    {
+      "id":1,
+        "cuidad":"cartagena"
+    },{
+      "id":2,
+        "cuidad":"rio viejo"
+    },{
+      "id":3,
+        "cuidad":"achi"
+    }],
+  "Boyacá":[
+    {
+      "id":1,
+      "cuidad":"duitama"
+  },{
+    "id":2,
+      "cuidad":"tunja"
+  },{
+    "id":3,
+      "cuidad":"paipa"
+  }],
+  "caldas":[
+    {
+      "id":1,
+        "cuidad":"manizales"
+    },{
+      "id":2,
+        "cuidad":"filadelfia"
+    },{
+      "id":3,
+        "cuidad":"marquetalia"
+    }]
+}

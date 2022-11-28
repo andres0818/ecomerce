@@ -1,0 +1,17 @@
+@media only screen and (min-device-width: 390px) and (max-device-width: 844px) {
+
+    .hr{
+        margin-top: 250px;
+    }
+
+    #createUser{
+    display: flex;
+    flex-direction: column;
+    }
+
+    #updateUser{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        }
+}

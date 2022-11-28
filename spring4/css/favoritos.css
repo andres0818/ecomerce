@@ -1,0 +1,69 @@
+#cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,0fr);
+    justify-content: space-around;
+
+}
+.card-favoritos{
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgb(216, 216, 216);
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.233);
+}
+
+
+.imagen img{
+    display: flex;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    position: relative;
+    z-index: -1;
+}
+
+
+.imagen button{
+ display: flex;
+ z-index: 2;
+ margin: 0 0 -20px 210px;
+ width: 25px;
+ height: 25px;
+ border-radius: 30px;
+ border: none;
+ box-shadow: 0 0 5px 1px rgb(216, 216, 216);
+ justify-content: center;
+ align-items: center;
+ font-size: 18px;
+ font-weight: 600;
+ color: rgb(111, 111, 111);
+ cursor: pointer;
+}
+.imagen button:hover{
+    background-color: gray;
+    color: white;
+}
+.fav-titulo{
+    color: gray;
+}
+.boton-cart{
+    display: flex;
+    justify-content: center;
+}
+.boton-cart button{
+    border: none;
+    width: 200px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.boton-cart button:hover{
+    background-color: gray;
+    color: white;
+}

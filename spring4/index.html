@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/AllCategorias.css" />
+    <link rel="stylesheet" href="css/articulo.css" />    
+    <link rel="stylesheet" href="css/popoverCarrito.css">
+    <link rel="stylesheet" href="css/navbar.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <main id="main" ></main>
+    <!-- All categories -->
+    <main id="categories"></main>
+    <div class="fondo">
+      <img src="All-categorias/Fondo.png" alt="" />
+    </div>
+
+    <!-- Araticulos -->
+    <div class="container-articulos">
+      <div class="category-list">
+        <h4>Category</h4>
+        <form id="form-tipo"> 
+          <ul><li class="li" onclick="categoria('')" value="id">Todos</li>
+          </ul>     
+          <ul id="tipo">
+            
+            <ul id="tipo"></ul>
+          </ul>
+        </form>
+      </div> 
+      <div class="articulo-derecho">
+        <div class="descuentos-articulos">
+          <div class="titulo">
+            <h2>Top Save Today</h2>
+          </div>
+          <div class="descuento">
+            <div>
+              <img src="Articulos/Rama.png" alt="" />
+              <p class="mensaje-articulo">Don't miss this oportunity at a special discount for this week</p>
+            </div>
+            <div class="reloj">
+              <div class="ico-reloj">
+                <img src="Articulos/reloj.png" alt="" />
+              </div>
+              <div class="expire">
+                <p>Expire in</p>
+                <div class="contador-descuento">
+                  <span id="puntos">:</span><span id="days"></span> :
+                  <span id="hours"></span> : <span id="minutes"></span> :
+                  <span id="seconds"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <main id="main-articulos"></main>
+      </div>
+    </div>
+    <footer>
+      <a name="footer"></a>
+      <img src="footer/footer.png" alt="" />
+    </footer>
+
+
+</script>
+  </body>
+  <!-- javascript -->
+  <script src="scripts/navbar.js"></script>
+  <script src="scripts/allCategories.js"></script>
+  <script src="scripts/reloj.js"></script>
+  <script src="scripts/articulo.js"></script>
+  <script src="scripts/localStorage.js"></script>
+  
+  <script src="scripts/localizacion.js"></script>
+</html>

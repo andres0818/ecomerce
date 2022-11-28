@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-nav {
+  width: 100%;
+  color: white;
+}
+.container-nav div {
+  display: flex;
+}
+.container-menuSalchicha div {
+  display: none;
+}
+.nav-superior {
+  background-color: rgb(29, 163, 134);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 35px;
+  width: 100%;
+  align-items: center;
+}
+.sup-izquierdo {
+  margin-left: 10%;
+  font-size: 20px;
+}
+.sup-derecho {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+.img-nav {
+  width: 30px;
+  height: 30px;
+}
+select {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+option {
+  background-color: rgba(180, 255, 240, 0.498);
+}
+
+.divisor {
+  border-right: 2px solid rgb(255, 255, 255);
+}
+form {
+  display: flex;
+}
+
+/* navBar inferior */
+
+.nav-inferior {
+  width: 100%;
+  height: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  margin-top: 2%;
+}
+.menu-salchicha {
+  display: none;
+}
+.logo img {
+  width: 300px;
+  height: 60px;
+  margin: 0 120px 0 30px;
+}
+.navegador {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navegador img {
+  height: 60px;
+  width: 60px;
+  margin: -6px 5px 0 0;
+}
+.buscador {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+}
+.buscador input {
+  border-radius: 10px 0 0 10px;
+  width: 600px;
+}
+.buscador img {
+  border-radius: 0 10px 10px 0;
+}
+.servicios {
+  width: 280px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 30px 0 0;
+}
+.servicios img {
+  width: 30px;
+  height: 30px;
+  border-left: 1px solid gray;
+  margin: 0 5px 0 5px;
+}
+
+.servicios img:hover {
+  background-color: rgba(128, 128, 128, 0.525);
+  border-radius: 4px;
+}
+
+@media only screen and (min-device-width: 390px) and (max-device-width: 844px) {
+  .derecha {
+    display: none;
+  }
+  .logo a {
+    display: none;
+  }
+
+  .nav-superior {
+    display: none;
+  }
+  .navegador img {
+    display: none;
+  }
+  .container-menuSalchicha div {
+    display: block;
+  }
+  body {
+    background-color: white;
+  }
+  .container-menuSalchicha {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 10px 0 0;
+  }
+  .logo-salchicha {
+    width: 80%;
+    height: 300px;
+  }
+
+  .buscador {
+    margin: 20px;
+  }
+  .servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 10px 30px 0 0;
+    gap: 15px;
+  }
+  .menu-salchicha {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    position: relative;
+  }
+  .servicios img {
+    border-left: none;
+    margin-left: 45px;
+  }
+  .servicios::before {
+    font-weight: bold;
+    color: rgb(50, 181, 140);
+    content: "Servicios ";
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Admin:before {
+    font-weight: bold;
+    color: rgb(50, 181, 140);
+    content: "Administrador ";
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+  }
+  .telefono:before {
+    font-weight: bold;
+    color: rgb(50, 181, 140);
+    content: "Contactenos";
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    right: 10px;
+  }
+  .cora:before {
+    font-weight: bold;
+    color: rgb(50, 181, 140);
+    content: "Te ha gustado";
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    right: 10px;
+  }
+  .carrito:before {
+    font-weight: bold;
+    color: rgb(50, 181, 140);
+    content: "Carrito de compras ";
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    right: 10px;
+  }
+
+  .nav-inferior {
+    display: block;
+    position: absolute;
+    width: 80%;
+    height: 500px;
+    padding: 8px;
+    top: 60px;
+    right: 37px;
+    /* 
+    visibility: hidden;
+    opacity: 0; */
+    transform: translate3d(0 20px 0);
+    z-index: 2;
+    box-shadow: 0 0px 10px 1px rgb(119, 119, 119);
+  }
+
+  .nav-inferior:before {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    background: rgb(255, 255, 255);
+    top: -5px;
+    left: 295px;
+    right: 0;
+    margin: auto;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+
+  .menu-salchicha:hover .nav-inferior {
+    visibility: visible;
+    opacity: 1;
+  }
+  #categories {
+    display: flex;
+    margin: 90px 0 0 12px;
+  }
+  .container-articulos {
+    display: flex;
+    flex-direction: column;
+    margin: 150px 0 0 60px;
+  }
+
+  .descuento {
+    display: flex;
+    flex-direction: column;
+  }
+  #main-articulos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tarjeta-superior img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .container-articulos {
+    width: 80%;
+    height: auto;
+    margin-left: 50px;
+  }
+  .category-list ul {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+  }
+
+  .category-list {
+    width: 85%;
+    height: 300px;
+    margin-bottom: 100px;
+  }
+  .fondo {
+    display: none;
+  }
+}
+
+/* localicion */
+
+.container-forms {
+  position: relative;
+  font-weight: 900;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 15px;
+  
+}
+
+.sub-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: absolute;
+  top: 30px;
+  left: auto;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: normal;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate3d(0 20px 0);
+  z-index: 1;
+  box-shadow: 0 0px 10px 1px rgb(119, 119, 119);
+  margin-top: 30px;
+}
+
+.sub-container:before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: rgb(255, 255, 255);
+  top: -5px;
+  left: -240px;
+  right: 0;
+  margin: auto;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.container-forms:hover .sub-container {
+  visibility: visible;
+  opacity: 1;
+  transform: translate3d(0 0px 0);
+  transition: 0.5s;
+}
+
+
+
+.contenedor-localizacion{
+  box-shadow: 0 0 5px 1px gray;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items:center ;
+  gap: 30px;
+
+}
+
+.contenedor-localizacion form{
+  width: 90%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.contenedor-localizacion *{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive;
+  
+
+
+}
+.contenedor-localizacion form button{
+  height: 80%;
+}
